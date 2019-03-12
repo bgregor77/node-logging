@@ -1,0 +1,6 @@
+---
+applications:
+- name: mbt-node-logging
+  command: node app.js
+  env:
+    LOGLEVEL: error
