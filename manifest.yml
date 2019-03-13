@@ -1,6 +1,7 @@
 ---
 applications:
 - name: mbt-node-logging
+  random-route: true
   command: node app.js
   env:
     LOGLEVEL: error
